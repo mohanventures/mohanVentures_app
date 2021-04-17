@@ -1,0 +1,14 @@
+/* edutech css file */
+
+.main {
+    block-size: 200px;
+    border: 1px strong black;
+    background-color: grey;
+}
+h1{
+    background-color: cadetblue;
+}
+h5{
+    text-decoration: solid;
+    text-shadow: 2em;
+}

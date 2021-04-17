@@ -1,0 +1,32 @@
+/* Footer CSS file */
+
+a {
+    -webkit-transition: .3s all;
+    transition: .3s all;
+    color: #1a57a5;
+  }
+  
+  a:hover, a:focus, a:active {
+    color: #174b8f;
+    text-decoration: none;
+  }
+
+.probootstrap-footer {
+    padding: 3em 0;
+    position: relative;
+    background: #1a57a5;
+    color: #ffffff;
+  }
+  
+  .probootstrap-footer a {
+    color: rgba(255, 255, 255, 0.4);
+  }
+  
+  .probootstrap-footer a:hover {
+    color: white;
+  }
+
+  .probootstrap-social > a {
+    padding: 10px;
+    font-size: 30px;
+  }
