@@ -9,7 +9,7 @@ function Section3() {
                 <div className="row">
                     <div className="col-md-6">
                         <form action="mailto:mohanzworld@gmail.com" method="POST" encType="multipart/form-data" name="EmailForm" className="probootstrap-form">
-                            <h2 className="text-black mt0">Get In Touch</h2>
+                            <h2 className="text-center text-black mt0">Get In Touch</h2>
                             <div className="form-group">
                                 <input type="text" className="form-control" placeholder="Your Name"></input>
                             </div>
@@ -31,21 +31,17 @@ function Section3() {
                         <ul className="probootstrap-contact-details">
                             <li>
                                 <span className="text-uppercase">Email</span>
-                                info@mohanventures.com
+                                mohanzworld@gmail.com
                             </li>
                             <li>
                                 <span className="text-uppercase">Phone</span>
-                                +91 976 1382 9921
-                            </li>
-                            <li>
-                                <span className="text-uppercase">Fax</span>
-                                +91 976 1456 9862
+                                +91 8800-7291-91
                             </li>
                             <li>
                                 <span className="text-uppercase">Address</span>
-                                Suraj Kund Road, Sports Market <br />
-                                    Ram Rubber Industries, Meerut  <br />
-                                        Uttarpradesh, India 250003
+                                Mohan Ventures, Suraj Kund Road <br />
+                                    Sports Market, Meerut  <br />
+                                        Uttarpradesh, India 250001
                             </li>
                         </ul>
                     </div>

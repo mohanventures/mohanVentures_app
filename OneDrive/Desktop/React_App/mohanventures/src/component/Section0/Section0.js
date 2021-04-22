@@ -8,50 +8,38 @@ function Section0() {
   return (
 
     <section>
-      <br/>
-      <div id="carouselExampleDark" className="carousel carousel-dark slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div clasNameclassNames="carousel-inner">
-          <div className="carousel-item active" data-bs-interval="2000">
-            <img src={bussi} className="img-fluid" alt="..."></img>
-            <div className="carousel-caption d-none d-md-block">
-              <h5>Business Development</h5>
-            </div>
-          </div>
-          <div className="carousel-item" data-bs-interval="2000">
-            <img src={consu} className="img-fluid" alt="..."></img>
-            <div className="carousel-caption d-none d-md-block">
-              <h5>Consulting Services</h5>
-            </div>
+      <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
+        <ol className="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div className="carousel-inner">
+          <div className="carousel-item active">
+            <img className="d-block w-60" src={bussi} alt="First slide"></img>
           </div>
           <div className="carousel-item">
-            <img src={edu} className="img-fluid" alt="..."></img>
-            <div className="carousel-caption d-none d-md-block">
-              <h5>Educational Services</h5>
-            </div>
+            <img className="d-block w-20" src={consu} alt="Second slide"></img>
+          </div>
+          <div className="carousel-item">
+            <img className="d-block w-50" src={edu} alt="Third slide"></img>
           </div>
         </div>
-        <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <a className="carousel-control-prev" to="#carouselExampleIndicators" role="button" data-slide="prev">
           <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span className="visually-hidden">Previous</span>
-        </button>
-        <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span className="sr-only">Previous</span>
+        </a>
+        <a className="carousel-control-next" to="#carouselExampleIndicators" role="button" data-slide="next">
           <span className="carousel-control-next-icon" aria-hidden="true"></span>
-          <span className="visually-hidden">Next</span>
-        </button>
+          <span className="sr-only">Next</span>
+        </a>
       </div>
-      <br />
-      <br />
     </section>
   );
 }
 export default Section0;
 
 
-{/* <img src={bussi} className="d-block w-100" alt="Business Development"></img> */ }
-{/* <img src={consu} clasNameclassName="d-block w-100" alt="Consulting Service"></img> */ }
-{/* <img src={edu} className="d-block w-100" alt="Eductaional Services"></img> */ }
+{/* <img src={bussi} classNameName="d-block w-100" alt="Business Development"></img> */ }
+{/* <img src={consu} clasNameclassNameName="d-block w-100" alt="Consulting Service"></img> */ }
+{/* <img src={edu} classNameName="d-block w-100" alt="Eductaional Services"></img> */ }
